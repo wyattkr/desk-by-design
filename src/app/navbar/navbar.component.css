@@ -45,6 +45,7 @@
 
 .navbar__dropdown ul {
   padding: 0;
+  padding-right: 1rem;
   margin: 0;
 }
 
