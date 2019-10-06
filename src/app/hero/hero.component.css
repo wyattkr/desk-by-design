@@ -5,7 +5,7 @@
 
 .hero__container {
   background-image: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent);
-  height: calc(100vh - 4rem);
+  height: 100vh;
   width: 100%;
   display: grid;
 }
