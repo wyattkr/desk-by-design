@@ -1,0 +1,24 @@
+.desks__container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: '.'
+                       '.'
+                       '.';
+  padding: 1rem;
+}
+
+@media (min-width: 575px) {
+  .desks__container {
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: '. .'
+                         '. .';
+  }
+}
+
+@media (min-width: 768px) {
+  .desks__container {
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: '. . .';
+  }
+}
