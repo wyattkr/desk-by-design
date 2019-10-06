@@ -1,0 +1,23 @@
+<div class="navbar">
+  <a class="navbar__brand" href=".">Desks By Design</a>
+  <div class="navbar__icons">
+    <fa-icon
+      (click)="toggleDropdown()"
+      [icon]="faBars"
+      class="navbar__toggle"
+    ></fa-icon>
+  </div>
+  <div
+    class="navbar__dropdown"
+    [ngClass]="showDropdown ? 'show' : null"
+  >
+    <nav>
+      <ul>
+        <li><a href="#">section 1</a></li>
+        <li><a href="#">section 2</a></li>
+        <li><a href="#">section 3</a></li>
+        <li><a href="#">section 4</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
