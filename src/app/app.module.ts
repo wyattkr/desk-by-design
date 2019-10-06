@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DesksComponent } from './desks/desks.component';
 import { DeskComponent } from './desk/desk.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
    declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
       NavbarComponent,
       DesksComponent,
       DeskComponent,
-      FooterComponent
+      FooterComponent,
+      AboutUsComponent
    ],
    imports: [
       BrowserModule,

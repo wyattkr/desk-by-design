@@ -1,0 +1,34 @@
+.about-us__container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: 'image-1'
+                       'image-2'
+                       'text';
+  padding: 1rem;
+}
+
+.image-1 {
+  grid-area: image-1
+}
+
+.image-2 {
+  grid-area: image-2
+}
+
+.text {
+  grid-area: text
+}
+
+.about-us__image {
+  width: 100%;
+}
+
+@media (min-width: 575px) {
+  .about-us__container {
+    grid-template-columns: repeat(2, calc(50% - 0.5rem));
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 'image-1 image-2'
+                         'text text';
+  }
+}
