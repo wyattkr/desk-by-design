@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./desks.component.css']
 })
 export class DesksComponent implements OnInit {
+
   desks = [
     {
       name: 'Floating Desk',
