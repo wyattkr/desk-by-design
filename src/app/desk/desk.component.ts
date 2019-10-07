@@ -6,11 +6,12 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./desk.component.css']
 })
 export class DeskComponent implements OnInit {
-  @Input() deskImage;
+  @Input() desk;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
+    console.log('desk');
   }
 
 }
