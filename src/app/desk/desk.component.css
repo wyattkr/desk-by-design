@@ -1,23 +1,32 @@
 .desk__container {
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: '.'
-                       '.'
-                       '.';
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: 'image'
+                       'title'
+                       'description'
+                       'price'
+                       'button';
 }
 
 .desk__image {
   width: 100%;
+  grid-area: image;
 }
 
 .desk__title {
-
+  grid-area: title;
 }
 
 .desk__description {
   text-align: justify;
   vertical-align: top;
+  min-height: 5rem;
+  grid-area: description;
+}
+
+.desk__price {
+  grid-area: price;
 }
 
 .desk__button {
@@ -29,6 +38,7 @@
   border: 1px solid var(--primary-color);
   border-radius: 0;
   cursor: pointer;
+  grid-area: button;
 }
 
 .desk__button:hover,

@@ -34,7 +34,6 @@ export class DesksComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.desks);
   }
 
 }
