@@ -18,6 +18,7 @@
 .desk__description {
   text-align: justify;
   vertical-align: top;
+  min-height: 5rem;
 }
 
 .desk__button {
