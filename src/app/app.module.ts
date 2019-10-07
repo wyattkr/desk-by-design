@@ -10,24 +10,29 @@ import { DeskDescriptionComponent } from './desk-description/desk-description.co
 import { NavbarComponent } from './navbar/navbar.component';
 import { DesksComponent } from './desks/desks.component';
 import { DeskComponent } from './desk/desk.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeroComponent,
-    DeskDescriptionComponent,
-    NavbarComponent,
-    DesksComponent,
-    DeskComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FontAwesomeModule,
-    FormsModule,
-
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      HeroComponent,
+      DeskDescriptionComponent,
+      NavbarComponent,
+      DesksComponent,
+      DeskComponent,
+      FooterComponent,
+      AboutUsComponent
+   ],
+   imports: [
+      BrowserModule,
+      AppRoutingModule,
+      FontAwesomeModule,
+      FormsModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }

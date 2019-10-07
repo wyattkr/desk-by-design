@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footer__text {
+  text-align: center;
+  padding: 3rem;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
