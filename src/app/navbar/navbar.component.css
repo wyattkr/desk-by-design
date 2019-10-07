@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
-
 .navbar {
   grid-area: navbar;
   width: 100vw;
@@ -8,7 +6,7 @@
   background-color: #21629c;
   font-family: 'Comfortaa', cursive;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,6 +45,7 @@
 
 .navbar__dropdown ul {
   padding: 0;
+  padding-right: 1rem;
   margin: 0;
 }
 
@@ -68,3 +67,4 @@
 .show {
   display: block;
 }
+
