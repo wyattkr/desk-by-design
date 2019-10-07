@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+.navbar {
+  grid-area: navbar;
+  width: 100vw;
+  height: 4rem;
+  position: fixed;
+  background-color: #21629c;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__icons img {
+  display: inline;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.navbar__icons a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar__toggle {
+  cursor: pointer;
+  color: white;
+}
+
+.navbar__dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 4rem;
+  width: 100%;
+  padding: 0 1rem 1rem;
+  background-color: #21629c;
+}
+
+.navbar__dropdown ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__dropdown li {
+  list-style: none;
+  padding-top: 1rem;
+  text-align: right;
+}
+
+.navbar__dropdown li:first-child {
+  padding-top: 0;
+}
+
+.navbar__dropdown a {
+  text-decoration: none;
+  color: white;
+}
+
+.show {
+  display: block;
+}
