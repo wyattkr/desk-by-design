@@ -10,6 +10,7 @@ export class DesksComponent implements OnInit {
     'assets/img/desk-1.webp',
     'assets/img/desk-2.webp',
     'assets/img/desk-3.webp',
+    'assets/img/floating-desk.webp',
   ]
 
   constructor() { }
