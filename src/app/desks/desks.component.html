@@ -1,5 +1,8 @@
 <h1>Desks</h1>
 
 <div class="desks__container">
-  <app-desk *ngFor="let deskImage of deskImages" [deskImage]="deskImage"></app-desk>
+  <app-desk
+    *ngFor="let desk of desks"
+    [desk]="desk"
+  ></app-desk>
 </div>
