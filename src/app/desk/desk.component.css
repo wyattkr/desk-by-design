@@ -1,7 +1,9 @@
 .desk__container {
+  height: 100%;
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: repeat(5, auto);
+  grid-auto-columns: 1fr;
+  grid-template-rows: repeat(2, auto) 1fr repeat(2, auto);
   grid-template-areas: 'image'
                        'title'
                        'description'
@@ -19,6 +21,7 @@
 }
 
 .desk__description {
+  grid-area: description;
   text-align: justify;
   vertical-align: top;
   min-height: 5rem;
@@ -29,7 +32,12 @@
   grid-area: price;
 }
 
+.desk__price {
+  grid-area: price;
+}
+
 .desk__button {
+  grid-area: button;
   font-family: inherit;
   text-transform: uppercase;
   background-color: var(--primary-color);
