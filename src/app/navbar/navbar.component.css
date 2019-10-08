@@ -19,7 +19,6 @@
 
 .navbar__icons img {
   display: inline;
-  height: 1.5rem;
   vertical-align: middle;
 }
 
@@ -53,10 +52,6 @@
   list-style: none;
   padding-top: 1rem;
   text-align: right;
-}
-
-.navbar__dropdown li:first-child {
-  padding-top: 0;
 }
 
 .navbar__dropdown a {
