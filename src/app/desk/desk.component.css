@@ -24,6 +24,12 @@
   grid-area: description;
   text-align: justify;
   vertical-align: top;
+  min-height: 5rem;
+  grid-area: description;
+}
+
+.desk__price {
+  grid-area: price;
 }
 
 .desk__price {
@@ -40,6 +46,7 @@
   border: 1px solid var(--primary-color);
   border-radius: 0;
   cursor: pointer;
+  grid-area: button;
 }
 
 .desk__button:hover,
